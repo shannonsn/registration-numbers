@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="registration_number.css">
+    <title>registration</title>
+</head>
+
+<body>
+    <div id="heading">
+        <h1>Registration Numbers:
+      </h1>
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <input id='input' type="text">
+    <br>
+    <hr>
+    <button id='button' onclick="myButtonFunction()">ADD</button>
+<select id="select">
+      <option id='all' value="all">All</option>
+      <option id="cape" value="cape town">Cape Town</option>
+      <option id="paarl" value="paarl">Paarl</option>
+      <option id="bellville" value="bellville">Bellville</option>
+</select>
+<button id="filter" onclick="filter()">filter</button>
+    <ul id="output"></ul>
+</body>
+<script src="registration_number.js" charset="utf-8"></script>
+
+</html>
